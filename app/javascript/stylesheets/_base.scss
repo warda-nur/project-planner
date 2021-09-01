@@ -1,0 +1,10 @@
+.project-card {
+  transition: background-color 0.2s ease;
+  &:hover {
+    background-color: rgba(238, 238, 238, 0.817);
+  }
+  border-radius: 10px;
+}
+.card {
+  border-radius: 10px;
+}
