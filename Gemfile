@@ -32,6 +32,10 @@ gem 'bootsnap', '>= 1.4.4', require: false
 gem 'devise'
 gem 'nested_scaffold'
 
+group :production do
+  gem 'pg'
+end
+
 
 
 group :development, :test do
